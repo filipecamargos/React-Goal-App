@@ -32,7 +32,7 @@ const CourseInput = (props) => {
         <input
           style={{
             borderColor: !isValid ? "red" : "#ccc",
-            background: !isValid ? "salmon" : "white",
+            background: !isValid ? "salmon" : "transparent",
           }}
           type="text"
           onChange={goalInputChangeHandler}
